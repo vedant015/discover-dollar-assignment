@@ -1,22 +1,21 @@
-version: '3'
+version: "3"
 
 services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
   backend:
     build: ./backend
-    container_name: backend
     ports:
       - "8080:8080"
     depends_on:
       - mongo
 
-  frontend:
-    build: ./frontend
-    container_name: frontend
-    ports:
-      - "80:80"
-
   mongo:
     image: mongo
-    container_name: mongo
     ports:
       - "27017:27017"
