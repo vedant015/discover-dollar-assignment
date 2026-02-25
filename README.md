@@ -5,7 +5,7 @@ A CRUD application built with MongoDB, Express.js, Angular 15, and Node.js, cont
 ## Live Application
 
 - **URL**: http://13.61.149.169
-- **GitHub**: https://github.com/vedant015/crud-dd-task-mean-app
+- **GitHub**: https://github.com/vedant015/discover-dollar-assignment
 - **Docker Hub**: 
   - Frontend: https://hub.docker.com/r/vedant151007/crud-dd-frontend
   - Backend: https://hub.docker.com/r/vedant151007/crud-dd-backend
